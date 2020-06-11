@@ -149,13 +149,24 @@ def DisplayEstimate(message, min_estimate, max_estimate, df1, query, matchtype):
   print('  Estimated ad position: %s' % _FormatMean(mean_avg_pos))
   print('  Estimated daily clicks: %s' % _FormatMean(mean_clicks))
   print('  Estimated daily cost: %s' % _FormatMean(mean_total_cost))
-  df_add = df_add.append({'query': query,
+    
+  try:
+    df_add = df_add.append({'query': query,
                     'match_type': matchtype,
                     'est_daily_clicks': round(mean_clicks,0),
                     'est_ad_pos': round(mean_avg_pos,1),
                     'est_avg_cpc': round(mean_avg_cpc/1000000,3)},
                     ignore_index=True)
-  df1 = pd.concat([df1, df_add], axis=0, ignore_index=True)
+    df1 = pd.concat([df1, df_add], axis=0, ignore_index=True)
+  except:
+    df_add = df_add.append({'query': query,
+                              'match_type': matchtype,
+                              'est_daily_clicks': mean_clicks,
+                              'est_ad_pos': mean_avg_pos,
+                              'est_avg_cpc': mean_avg_cpc},
+                             ignore_index=True)
+    df1 = pd.concat([df1, df_add], axis=0, ignore_index=True)
+    
   return df1
 
 if __name__ == '__main__':
