@@ -11,11 +11,11 @@ This script **can only work if you have gained Basic or Standard Access to Adwor
 <br/> **Keep always in mind that the displayed stats are ESTIMATIONS provided by Google.**
 
 <br/> **Scope of the script:**
-<br/> Specify a list of potential keywords and each one's match type.
-<br/> Specify in the script the Location code, Language code and Max CPC of a fictitious ad group.
-<br/> Run the script and get a datatable with each keyword along with estimated mean daily clicks, estimated mean average position (though deprecated according to Google) and estimated mean avg. CPC
+<br/> - Specify a list of potential keywords and each one's match type.
+<br/> - Specify in the script the Location code, Language code and Max CPC of a fictitious ad group.
+<br/> - Run the script and get a datatable with each keyword along with estimated mean daily clicks, estimated mean average position (though deprecated according to Google) and estimated mean avg. CPC
 
 <br/> **Further actions**
-<br/> The script can be modified according to your needs
-<br/> The aforementioned stats can be broken down to their min and max values
-<br/> Other metrics tht can be retrieved are impressions, cost, etc.
+<br/> - The script can be modified according to your needs
+<br/> - The aforementioned stats can be broken down to their min and max values
+<br/> - Other metrics tht can be retrieved are impressions, cost, etc.
