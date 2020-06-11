@@ -8,7 +8,7 @@ Python script (back-end) created by **Dimitrios Panourgias**
 
 This script **can only work if you have gained Basic or Standard Access to Adwords API.**
 <br/> Note that for test ad accounts this script will return dummy data.
-<br/> **Keep always in mind that the displayed stats are ESTIMATIONS.**
+<br/> **Keep always in mind that the displayed stats are ESTIMATIONS provided by Google.**
 
 <br/> **Scope of the script:**
 <br/> Specify a list of potential keywords and each one's match type.
