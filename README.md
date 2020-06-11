@@ -1,6 +1,6 @@
 # Bulk_Keyword_Planner_estimates
 Python script (back-end) created by **Dimitrios Panourgias**
-The script is based on an example python script from Google's Adwords API documentation
+<br/> The script is based on an example python script from Google's Adwords API documentation
 <br/> June 2020
 
 This script **can only work if you have gained Basic or Standard Access to Adwords API.**
